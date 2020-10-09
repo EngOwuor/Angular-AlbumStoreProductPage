@@ -5,7 +5,9 @@ import {Observable} from 'rxjs';
 import {map} from 'rxjs/operators';
 
 
-@Injectable()
+@Injectable(
+ 
+)
 export class ProductService {
   private _albumUrl = '../assets/album.json' 
 
