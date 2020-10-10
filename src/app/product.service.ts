@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { from } from 'rxjs/observable/from';
 import 'rxjs/add/operator/map';
 import{ Album } from './album';
-import { Observable } from 'rxjs';
+import { Observable } from 'rxjs/Observable';
 
 
 @Injectable()
